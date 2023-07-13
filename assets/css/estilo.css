@@ -135,7 +135,7 @@ h2 {
 /*FIM DA ÁREA DO BANNER*/
 
 
-/*INÍCIO ÁREA DAS IMAGENS (ÁREA1)*/
+/*INÍCIO ÁREA DA ÁREA1*/
 
 
 .area1 {
@@ -156,7 +156,6 @@ h2 {
 }
 
 .area1--img1 {
-    background-color: green;
     background-image: url(../image/f2.jpg);
     background-size: cover;
     background-position: center;
@@ -164,11 +163,43 @@ h2 {
 }
 
 .area1--img2 {
-    background-color: red;
     grid-column: 2 / 3;
     grid-row: 1 /3;
     background-image: url(../image/f1.jpg);
     background-position: center;
     background-size: cover;
 }
-/*FIM DA ÁREA DAS IMAGENS (ÁREA1)*/
+/*FIM DA ÁREA ÁREA1*/
+
+/*INÍCIO DA ÁREA 2*/
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area2--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.area2--content {
+    padding: 80px;
+
+}
+
+
+.area2--img1 {
+    background-color: green;
+    background-image: url(../image/f4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.area2--img2 {
+    grid-column: 1 / 2;
+    grid-row: 1 /3;
+    background-image: url(../image/f3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*FINAL DA AREA 2*/
