@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+
+/*INÍCIO DA ÁREA DO CABEÇALHO*/
 header .line {
     background-color: #117050;
     height: 10px;
@@ -36,11 +38,11 @@ header .line {
 
 .header-search input {
     font-size: 16px;
-    padding: 7px 10px;
+    padding: 8px 15px;
     border: 1px solid #999999;
     outline: 0;
     width: 100%;
-    max-width: 220px;
+    max-width: 250px;
 }
 
 .header-search button {
@@ -64,3 +66,5 @@ header .line {
     width: 24px;
     height: 24px;
 }
+/*FIM DA ÁREA DO CABEÇALHO*/
+
