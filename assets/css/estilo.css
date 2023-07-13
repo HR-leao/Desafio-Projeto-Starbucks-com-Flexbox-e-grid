@@ -15,11 +15,14 @@ header .line {
 .container {
     max-width: 1140px;
     margin: auto;
+
+}
+
+.header--area {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-
 }
 
 .header-left img {
@@ -68,3 +71,38 @@ header .line {
 }
 /*FIM DA ÁREA DO CABEÇALHO*/
 
+
+
+
+/*INÍCIO DA ÁREA DO BANNER*/
+.banner {
+    background-image: url(../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 100px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.banner-imagens {
+    margin-top: 60px;
+}
+
+.banner-imagens img {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+/*FIM DA ÁREA DO BANNER*/
