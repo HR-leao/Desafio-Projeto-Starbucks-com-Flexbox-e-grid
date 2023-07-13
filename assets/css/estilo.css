@@ -10,3 +10,7 @@ header .line {
     height: 10px;
 }
 
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
