@@ -110,6 +110,7 @@ h2 {
 
 
 
+
 /*INÍCIO DA ÁREA DO BANNER*/
 .banner {
     background-image: url(../image/bg.jpg);
@@ -133,6 +134,11 @@ h2 {
     margin-right: 40px;
 }
 /*FIM DA ÁREA DO BANNER*/
+
+
+
+
+
 
 
 /*INÍCIO ÁREA DA ÁREA1*/
@@ -171,6 +177,11 @@ h2 {
 }
 /*FIM DA ÁREA ÁREA1*/
 
+
+
+
+
+
 /*INÍCIO DA ÁREA 2*/
 .area2 {
     display: grid;
@@ -203,3 +214,182 @@ h2 {
 }
 
 /*FINAL DA AREA 2*/
+
+
+
+
+
+
+
+
+/*INÍCIO DA AREA 3*/
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.area3--content {
+    padding: 200px 80px;
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+
+
+.rea3--img1 {
+    background-image: url(../image/f5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*FINAL DA AREA 3*/
+
+
+
+
+
+
+
+
+/*INÍCIO DA AREA 4*/
+.area4 {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.area4--content {
+    padding: 160px 80px;
+    background-color: #e8e9ee;
+}
+
+.area4--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1 {
+    background-image: url(../image/bg3.jpg);
+    background-position: left;
+}
+
+/*FINAL DA AREA 4*/
+
+
+
+
+
+/*INÍCIO DA AREA 5*/
+
+.area5{
+    background-image: url(../image/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+
+/*FINAL DA AREA 5*/
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+
+
+
+@media (min-width:769px) and (max-width:1140px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    .area1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3 {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width:425px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    .header-menu {
+        margin-left: 20px;
+    }
+
+    .header-search input {
+        max-width: 80px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .banner-imagens img {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4 {
+        grid-template-columns:1fr ;
+    }
+    .rea3--img1 {
+        display: none;
+    }
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 40px;
+    }
+    .area5 {
+        height: 200px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding:40px 20px;
+    }
+}
